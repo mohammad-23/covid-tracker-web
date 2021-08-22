@@ -1,0 +1,51 @@
+.tracker-container {
+  margin: 15px;
+  height: 75%;
+}
+.tracker-container.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 3px solid #424649;
+  width: 22px;
+  height: 22px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.g2-tooltip {
+  height: 50%;
+  width: 50%;
+  overflow: auto;
+  padding: 10px !important;
+}
+
+.g2-tooltip-list .g2-tooltip-list-item:last-child > .g2-tooltip-value {
+  margin-top: 10px;
+}
+
+.g2-tooltip-name {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.g2-tooltip-value {
+  margin-left: 10px !important;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 100%;
+  overflow-x: hidden;
+}
