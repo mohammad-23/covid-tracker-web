@@ -1,6 +1,6 @@
 .tracker-container {
   margin: 15px;
-  height: 75%;
+  height: 85%;
 }
 .tracker-container.loading {
   display: flex;
